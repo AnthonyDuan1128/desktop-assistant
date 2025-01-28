@@ -80,8 +80,8 @@ python build.py
 
 ## 更新日志
 
-### v1.0.0 (2024-03)
-- 初始版本发布
+### v1.0.1 (2024-03)
+- 初始正式版本发布
 - 实现基础功能
 - 添加主题切换
 - 集成AI对话功能
@@ -90,12 +90,29 @@ python build.py
 
 欢迎提交 Pull Request 或创建 Issue。
 
-## 许可证
+## 运行前提
 
-本项目采用 MIT 许可证。详见 [LICENSE](LICENSE) 文件。
+1. 请在根目录创建.env：
+'''
+EXCHANGE_RATE_API_KEY=
+DEEPSEEK_API_KEY=
+DEEPSEEK_API_URL=https://api.deepseek.com/v1/chat/completions
+'''
+
+api key从https://platform.deepseek.com获得
+交通密钥从https://exchangerate-api.com/获得
 
 ## 联系方式
 
 如有问题或建议，请通过以下方式联系：
-- 提交 Issue
-- 发送邮件至 [help@duanmail.xyz]
+- 发送邮件至作者 [desktop-helper@duanmail.xyz]
+- 发送邮件至团队 [group@speedgo.top]
+
+## 注意事项
+
+本程序由初中生团队编写，请包容错误，我们会改进。
+
+## 致谢
+
+主作者 AnthonyDuan
+团队 SpeedGo
