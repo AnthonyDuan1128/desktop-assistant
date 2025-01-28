@@ -92,15 +92,15 @@ python build.py
 
 ## 运行前提
 
-1. 请在根目录创建.env：
-'''
+1. 创建文件**.env**：
+```
 EXCHANGE_RATE_API_KEY=
 DEEPSEEK_API_KEY=
 DEEPSEEK_API_URL=https://api.deepseek.com/v1/chat/completions
-'''
 
 api key从https://platform.deepseek.com获得
 交通密钥从https://exchangerate-api.com/获得
+```
 
 ## 联系方式
 
@@ -115,4 +115,5 @@ api key从https://platform.deepseek.com获得
 ## 致谢
 
 主作者 AnthonyDuan
+
 团队 SpeedGo
